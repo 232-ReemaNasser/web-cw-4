@@ -13,21 +13,36 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.flexer{
+    display: flex;
+    height: 100%;
+}
+
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: #1d3557;
+    color: white;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color: #457b9d;
 }
 
 .main{
-
+    background-color: #a8dadc;
+    height: 80%;
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+}
+a:hover{
+    color: white;
 }
 
 /* !بــونص */
